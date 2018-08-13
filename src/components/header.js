@@ -33,9 +33,15 @@ const NavLinks = styled.ul`
       color : red;
     }
   }
+  @media (max-width: 700px) {
+    margin : 0 auto;
+  }
 `
 const NavTitle = styled.div`
   font-size : 20px;
+  @media (max-width: 700px) {
+    display: none;
+  }
 `
 
 const Header = ({ siteTitle }) => (
