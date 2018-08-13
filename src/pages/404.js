@@ -6,9 +6,13 @@ const PageBanner = styled.div`
   background : #C51162;
   color : #fff;
   min-height: calc(100vh - 20px);
-  width: calc(100vw - 10px);
+  width: calc(100vw - 40px);
   display: flex;
   align-items : flex-end;
+  border-radius: 10px;
+  @media (max-width: 700px) {
+    width: calc(100vw - 20px);
+  }
 `;
 
 const PageContent = styled.div`

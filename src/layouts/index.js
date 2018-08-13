@@ -10,11 +10,15 @@ const BodyWrapper = styled.div`
   position : absolute;
   top: 10px;
   left: 10px;
-  width: calc(100vw - 10px);
+  width: calc(100vw - 40px);
   min-height: calc(100vh - 20px);
   margin: 0 auto;
   padding: '0px 1.0875rem 1.45rem',
   padding-top: 1.45rem;
+  border-radius: 10px;
+  @media (max-width: 700px) {
+    width: calc(100vw - 20px);
+  }
 `
 const Layout = ({ children, data }) => (
   <div>
