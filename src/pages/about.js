@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PageBanner = styled.div`
   position : relative;
-  background : yellow;
+  background : #3700B3;
   color : #fff;
   min-height: calc(100vh - 20px);
   width: 100%;
@@ -19,8 +19,8 @@ const PageContent = styled.div`
 const AboutPage = () => (
   <PageBanner>
     <PageContent>
-      <h2>Hello Internet</h2>
-      <p>About Us Page.</p>
+      <h2>About Me</h2>
+      <p>This page is all about me.</p>
     </PageContent>
   </PageBanner>
 )

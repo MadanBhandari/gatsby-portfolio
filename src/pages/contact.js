@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PageBanner = styled.div`
   position : relative;
-  background : green;
+  background : #30DAC6;
   color : #fff;
   min-height: calc(100vh - 20px);
   width: 100%;
@@ -19,8 +19,8 @@ const PageContent = styled.div`
 const ContactPage = () => (
   <PageBanner>
     <PageContent>
-      <h2>Hello Internet</h2>
-      <p>Contact Us Page.</p>
+      <h2>Contact</h2>
+      <p>E : hello (at) madanbhandari.com</p>
     </PageContent>
   </PageBanner>
 )

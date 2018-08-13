@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PageBanner = styled.div`
   position : relative;
-  background : blue;
+  background : #018786;
   color : #fff;
   min-height: calc(100vh - 20px);
   width: 100%;
@@ -19,7 +19,7 @@ const PageContent = styled.div`
 const WorkPage = () => (
   <PageBanner>
     <PageContent>
-      <h2>Hello Internet</h2>
+      <h2>My Works</h2>
       <p>All of projects will be added here.</p>
     </PageContent>
   </PageBanner>

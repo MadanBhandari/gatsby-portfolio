@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PageBanner = styled.div`
   position : relative;
-  background : red;
+  background : #6200EE;
   color : #fff;
   min-height: calc(100vh - 20px);
   width: 100%;
