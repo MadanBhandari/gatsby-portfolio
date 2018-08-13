@@ -10,7 +10,7 @@ const BodyWrapper = styled.div`
   position : absolute;
   top: 10px;
   left: 10px;
-  min-width: calc(100% - 20px);
+  width: calc(100vw - 10px);
   min-height: calc(100vh - 20px);
   margin: 0 auto;
   padding: '0px 1.0875rem 1.45rem',

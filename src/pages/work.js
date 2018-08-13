@@ -6,13 +6,12 @@ const PageBanner = styled.div`
   background : #018786;
   color : #fff;
   min-height: calc(100vh - 20px);
-  width: 100%;
+  width: calc(100vw - 20px);
   display: flex;
   align-items : flex-end;
 `;
 
 const PageContent = styled.div`
-  position : relative;
   padding : 20px;
 `
 
