@@ -1,5 +1,5 @@
 ### Gatsby Portfolio Experiment
-Simple gatsby portfolio experiment with [styled-components](https://github.com/styled-components)
+Gatsby pwa portfolio experiment with [styled-components](https://github.com/styled-components)
 
 ### Installation
 ```
